@@ -1,0 +1,17 @@
+.navbar {
+    transition: all 0.4s;
+  }
+  
+  .navbar .nav-link {
+    color: black;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar .navbar-brand {
+    color: black;
+  }
