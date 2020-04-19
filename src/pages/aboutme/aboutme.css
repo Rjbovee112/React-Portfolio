@@ -1,0 +1,31 @@
+html { 
+    background: url(assets/cooltree-20percent.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    background-color: transparent;
+  }
+
+  #me {
+    max-width: 75%;
+    height: 375px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+
+  }
+
+  p {
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 0 0 3px black;
+    color: white;
+  }
