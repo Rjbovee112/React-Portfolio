@@ -1,29 +1,30 @@
 
-import React from 'React';
+import React from 'react';
+import './headerstyle.css';
 
 
 function Header() {
     return (
-        <header class="header">
-            <nav class="navbar navbar-expand-lg fixed-top py-3">
-                <div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Robert J
+        <header className="header">
+            <nav className="navbar navbar-expand-lg fixed-top py-3">
+                <div className="container"><a href="index.html" className="navbar-brand text-uppercase font-weight-bold">Robert J
                     Bovee</a>
                     <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                        class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                        className="navbar-toggler navbar-toggler-right"><i className="fa fa-bars" /></button>
 
-                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a href="index.html"
-                                class="nav-link text-uppercase font-weight-bold">Home
-                                <span class="sr-only">(current)</span></a></li>
-                            <li class="nav-item"><a href="about.html"
-                                class="nav-link text-uppercase font-weight-bold">About</a></li>
-                            <li class="nav-item"><a href="portfolio.html"
-                                class="nav-link text-uppercase font-weight-bold">Portfolio</a>
+                    <div id="navbarSupportedContent" className="collapse navbar-collapse">
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item active"><a href="index.html"
+                                className="nav-link text-uppercase font-weight-bold">Home
+                                <span className="sr-only">(current)</span></a></li>
+                            <li className="nav-item"><a href="about.html"
+                                className="nav-link text-uppercase font-weight-bold">About</a></li>
+                            <li className="nav-item"><a href="portfolio.html"
+                                className="nav-link text-uppercase font-weight-bold">Portfolio</a>
                             </li>
-                            <li class="nav-item"><a href="contact.html"
-                                class="nav-link text-uppercase font-weight-bold">Contact</a>
+                            <li className="nav-item"><a href="contact.html"
+                                className="nav-link text-uppercase font-weight-bold">Contact</a>
                             </li>
                         </ul>
                     </div>
