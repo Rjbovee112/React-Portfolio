@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        {/* Routes will be here...*/}
+        
       </Switch>
       <Footer />
     </BrowserRouter>
