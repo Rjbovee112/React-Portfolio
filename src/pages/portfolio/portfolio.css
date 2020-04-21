@@ -1,14 +1,4 @@
-html { 
-    background: url(assets/palm-20-percent.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  body {
-    background-color: transparent;
-  }
+
 
   b{
     font-weight: bolder;
