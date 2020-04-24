@@ -28,7 +28,7 @@ class AboutMe extends React.Component {
 
 
                     <div className=" col-md-6">
-                        <p>I was born and raised in
+                        <p>*This site is still under construction*I was born and raised in
                         Southern California and moved to Utah in 2013. I currently work full time
                         for Fidelity Investments, while attending the University of Utah Full Stack Coding Bootcamp. I have
                         gravitated towards front-end and want to become a front-end developer. I really enjoy creating
