@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Switch>
         <Redirect exact path="/" to="home" />
-        <Route name="home" path="/home" component={Home} />
+        <Route name="home" path="/index" component={Home} />
         <Route name="about" path="/about" component={AboutMe} />
         <Route name="contact" path="/contact" component={Contact} />
         <Route name="portfolio" path="/portfolio" component={Portfolio} />

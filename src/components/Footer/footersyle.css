@@ -1,9 +1,11 @@
 footer{
     height: 120px;
+    line-height: 120px;
     display: flex;
     width: 100%;
     position: absolute;
     bottom: 0;
+    left: 0;
   }
 
   .foot-icons{ /* div */
@@ -19,4 +21,14 @@ footer{
 
   .row{
     margin: 0;
+  }
+
+  body {
+   margin-bottom: 120px;
+
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
   }
