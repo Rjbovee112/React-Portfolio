@@ -8,6 +8,8 @@ class Contact extends React.Component {
 
         body.style.backgroundImage = 'url("./assets/tree-20-percent-OP.jpg")';
         body.style.backgroundSize = 'cover';
+        body.style.backgroundRepeat = 'no-repeat';
+        body.style.backgroundPosition = 'center';
     }
 
 

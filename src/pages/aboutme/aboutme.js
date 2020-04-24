@@ -8,6 +8,8 @@ class AboutMe extends React.Component {
 
         body.style.backgroundImage = 'url("./assets/cooltree-20percent.jpg")';
         body.style.backgroundSize = 'cover';
+        body.style.backgroundRepeat = 'no-repeat';
+        body.style.backgroundPosition = 'center';
         /*
         body.setAttribute('style', JSON.stringify({
             'background-image': 'url(http://localhost:3000/assets/cooltree-20percent.jpg) no-repeat center center fixed',
@@ -26,7 +28,7 @@ class AboutMe extends React.Component {
 
 
                     <div className=" col-md-6">
-                        <p>* This website is still under construction and is being exported to React.* I was born and raised in
+                        <p>I was born and raised in
                         Southern California and moved to Utah in 2013. I currently work full time
                         for Fidelity Investments, while attending the University of Utah Full Stack Coding Bootcamp. I have
                         gravitated towards front-end and want to become a front-end developer. I really enjoy creating

@@ -6,8 +6,10 @@ class Portfolio extends React.Component {
     componentDidMount() {
         var body = document.querySelector('body');
 
-        body.style.backgroundImage = 'url("./palm-20-percent.jpg")';
+        body.style.backgroundImage = 'url("./assets/palm-20-percent.jpg")';
         body.style.webkitBackgroundSize = 'cover';
+        body.style.backgroundRepeat = 'no-repeat';
+        body.style.backgroundPosition = 'center';
     }
 
 
