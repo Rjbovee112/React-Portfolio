@@ -14,7 +14,6 @@ class AboutMe extends React.Component {
             'background-size': 'cover',
         }))
         */
-
     }
 
     render() {
