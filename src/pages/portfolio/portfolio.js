@@ -48,27 +48,27 @@ class Portfolio extends React.Component {
                         </a></div>
                     </div>
 
-                    <div className=" col-md-3"><img id="dream" src="./assets/DreamD.jpg" />
+                    <div className=" col-md-3"><img id="dream" src="./assets/burgerpic.jpg" />
                         <div className="centered"><a href="**********" target="_blank">
-                            <font size="6"><b>Eat Da Burger</b></font>
+                            <font size="6"><b>Burger</b></font>
                         </a></div>
                     </div>
 
-                    <div className=" col-md-3"><img id="dream" src="./assets/DreamD.jpg" />
-                        <div className="centered"><a href="**********" target="_blank">
-                            <font size="6"><b>DREAM</b></font>
+                    <div className=" col-md-3"><img id="dream" src="./assets/teampic.jpg" />
+                        <div className="centered"><a href="https://github.com/Rjbovee112/Team-Profile-Generator-10" target="_blank">
+                            <font size="6"><b>Team</b></font>
                         </a></div>
                     </div>
 
-                    <div className=" col-md-3"><img id="dream" src="./assets/DreamD.jpg" />
-                        <div className="centered"><a href="*******" target="_blank">
-                            <font size="6"><b>DREAM</b></font>
+                    <div className=" col-md-3"><img id="dream" src="./assets/id-directories.jpg" />
+                        <div className="centered"><a href="https://protected-caverns-46510.herokuapp.com/" target="_blank">
+                            <font size="6"><b>Directory</b></font>
                         </a></div>
                     </div>
 
-                    <div className=" col-md-3"><img id="dream" src="./assets/DreamD.jpg" />
-                        <div className="centered"><a href="******" target="_blank">
-                            <font size="6"><b>DREAM</b></font>
+                    <div className=" col-md-3"><img id="dream" src="./assets/budgetpic.jpg" />
+                        <div className="centered"><a href="https://budgetracker84.herokuapp.com/" target="_blank">
+                            <font size="6"><b>Budget</b></font>
                         </a></div>
                     </div>
 
