@@ -1,5 +1,4 @@
 import React from 'react';
-import "../home/homestyle.css"
 
 class Home extends React.Component {
     componentDidMount() {
@@ -15,9 +14,7 @@ class Home extends React.Component {
     }
 
     render() {
-        return <div>
-            <img id="loading" src="./assets/logo-one.png"></img>
-        </div>
+        return <div />
     }
 }
 export default Home;

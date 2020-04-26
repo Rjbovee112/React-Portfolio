@@ -48,9 +48,9 @@ class Portfolio extends React.Component {
                         </a></div>
                     </div>
 
-                    <div className=" col-md-3"><img id="dream" src="./assets/burgerpic.jpg" />
-                        <div className="centered"><a href="https://github.com/Rjbovee112/Burger" target="_blank">
-                            <font size="6"><b>EAT DA BURGER</b></font>
+                    <div className=" col-md-3"><img id="dream" src="./assets/quizzly.jpg" />
+                        <div className="centered"><a href="https://github.com/blaurel93/QuizProject" target="_blank">
+                            <font size="6"><b>PROJECT 2</b></font>
                         </a></div>
                     </div>
 
