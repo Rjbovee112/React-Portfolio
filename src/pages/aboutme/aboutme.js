@@ -28,14 +28,7 @@ class AboutMe extends React.Component {
 
 
                     <div className=" col-md-6">
-                        <p>*This site is still under construction*I was born and raised in
-                        Southern California and moved to Utah in 2013. I currently work full time
-                        for Fidelity Investments, while attending the University of Utah Full Stack Coding Bootcamp. I have
-                        gravitated towards front-end and want to become a front-end developer. I really enjoy creating
-                        exciting websites that have style and functionality. Once I have completed the course, I am going to
-                        start taking classes on UI and Design, as I want to really hone those skill to be able to create
-                        amazing and dynamic websites. I really enjoy collaboration and working with others to create
-                something extraordinary.</p>
+                        <p>I recently graduated from the University of Utah Full Stack Coding Bootcamp.  During the course I have gravitated towards front end development and design.  I really enjoy creating exciting websites with function and style.  I am looking forward to becoming a Front-End Developer.  I am an avid Udemy course taker and will be continue my education by taking as many courses as I can.  I currently work at Fidelity Investments, in their Brokerage Operations department.  I have been with the company for 5 years.  In 2017 I received a kidney transplant and try to help educate people about end stage renal failure and kidney transplants.</p>
                     </div>
 
                 </div>
