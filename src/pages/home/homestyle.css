@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: #fff;
+    background: #1d1f20;
+    margin-top: 275px;
+}
+
+#loading {
+    animation: rotation 2s infinate linear;
+    }
+
+
+
+@keyframes turn{
+   from {
+       transfrom: rotate(0deg);
+   }
+
+   to {
+       transform: rotate(359deg);
+   }
+}
