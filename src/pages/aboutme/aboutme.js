@@ -24,7 +24,7 @@ class AboutMe extends React.Component {
             <div className="container">
                 <div className="row">
 
-                    <div className=" col-md-6"><img id="me" src="assets/IMG_3187 (2).jpg" /></div>
+                    <div className=" col-md-6 picturecontainer"><img id="me" src="assets/IMG_3187 (2).jpg" /></div>
 
 
                     <div className=" col-md-6">
