@@ -69,7 +69,7 @@
   /*Email CSS*/
 
   .button {
-    background-color: transparent;
+
     border: solid 1px black;
     color: black;
     padding: 15px 32px;
@@ -85,4 +85,9 @@
     font-size: 40px;
     text-shadow: 0 0 4px black;
     color: white;
+  }
+
+  .form-control {
+    padding: 16px;
+    margin-top: 10px;
   }
