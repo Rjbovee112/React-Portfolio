@@ -6,7 +6,7 @@ import './footersyle.css';
 
 function Footer() {
     return (
-        <footer class="footer">
+        <footer className="footer">
             <div className="col-md-12 foot-icons">
                 <a className="icons" target="_blank" href="https://github.com/Rjbovee112"><img style={{ height: '40px' }}
                     src="assets/kisspng-github-computer-icons-repository-arch-linux-icon-5b4c339a5ea7f8.7251585315317206023877.png" /></a>

@@ -9,13 +9,13 @@ app.use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: false }));
 
 
-var trasporter = nodeMailer.createTransport({
-    host: 'smtp.sendgrid.com',
+var transporter = nodeMailer.createTransport({
+    host: 'smtp.sendgrid.net',
     port: 587,
     secure: false,
     auth: {
         user: 'Rjbovee112',
-        pass: 'Codingmail!62',
+        pass: 'Front!2020',
     },
 });
 
@@ -25,9 +25,10 @@ app.post('/send-email', function (req, res) {
     var email = req.body.email;
     var subject = req.body.subject
     var body = req.body.body;
+    console.log(req.body)
 
     transporter.sendMail({
-        from: '"Robert Bovee" rjbovee112@gmail.com',
+        from: 'rjbovee112@gmail.com',
         to: 'rjbovee112@gmail.com',
         subject: subject,
         text: `

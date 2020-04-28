@@ -14,8 +14,8 @@ class Email extends React.Component {
             },
             body: JSON.stringify({
                 email: document.querySelector('input[name="email"]').value,
-                subject: document.querySelector('input[name"subject"]').value,
-                body: document.querySelector('input[name="body"]').value,
+                subject: document.querySelector('input[name="subject"]').value,
+                body: document.querySelector('textarea[name="body"]').value,
             })
         })
     }
@@ -38,18 +38,18 @@ class Email extends React.Component {
                 <form onSubmit={this.handleSubmit}>
 
 
-                    <h2 className="emailtext">Send e-mail to Robert Bovee:</h2>
-                    <div class="form-group">
+                    <h2 className="emailtext">Send e-mail to rjbovee112@gmail.com:</h2>
+                    <div className="form-group">
                         <label>Email Address</label>
                         <input type="email" name="email" className="form-control" />
                     </div>
 
-                    <div class="form-group">
+                    <div className="form-group">
                         <label>Subject</label>
                         <input type="text" name="subject" className="form-control" />
                     </div>
 
-                    <div class="form-group">
+                    <div className="form-group">
                         <label>Body</label>
                         <textarea name="body" className="form-control" rows="6"></textarea>
                     </div>
