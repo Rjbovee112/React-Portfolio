@@ -1,4 +1,5 @@
 import React from 'react';
+import './contact.css';
 
 
 class Email extends React.Component {
@@ -37,12 +38,13 @@ class Email extends React.Component {
                 <form onSubmit={this.handleSubmit}>
 
 
-                    <h2>Send e-mail to RJBOVEE112@GMAIL.COM:</h2>
+                    <h2 className="emailtext">Send e-mail to Robert Bovee:</h2>
 
                     <input name="email" className="form-control" />
                     <input name="subject" className="form-control" />
-                    <input name="body" className="from-contorl" />
-                    <button type="submit">Submit</button>
+                    <input name="body" className="form-control" />
+                    <br></br>
+                    <button className="button" type="submit">Submit</button>
 
                 </form>
             </div>
