@@ -8,6 +8,8 @@ var port = process.env.PORT || 8080;
 app.use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.static('build'));
+
 
 var transporter = nodeMailer.createTransport({
     host: 'smtp.sendgrid.net',
@@ -47,6 +49,10 @@ app.post('/send-email', function (req, res) {
         });
 
 });
+
+app.get('/*', function (req, res) {
+    res.sendFile(__dirname + '/build/index.html');
+})
 
 app.listen(port, function () {
     console.log('App Listening on port ' + port + '.');
