@@ -39,15 +39,26 @@ class Email extends React.Component {
 
 
                     <h2 className="emailtext">Send e-mail to Robert Bovee:</h2>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" className="form-control" />
+                    </div>
 
-                    <input name="email" className="form-control" />
-                    <input name="subject" className="form-control" />
-                    <input name="body" className="form-control" />
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" name="subject" className="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Body</label>
+                        <textarea name="body" className="form-control" rows="6"></textarea>
+                    </div>
+
                     <br></br>
                     <button className="button" type="submit">Submit</button>
 
                 </form>
-            </div>
+            </div >
 
 
         )
