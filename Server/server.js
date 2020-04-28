@@ -27,6 +27,13 @@ app.post('/send-email', function (req, res) {
     var body = req.body.body;
 
     transporter.sendMail({
+        from: '"Robert Bovee" rjbovee112@gmail.com',
+        to: 'rjbovee112@gmail.com',
+        subject: subject,
+        text: `
+            Email: ${email}
+            Body: ${body}
+     `,
 
     })
         .then(function () {
@@ -41,5 +48,4 @@ app.post('/send-email', function (req, res) {
 
 app.listen(port, function () {
     console.log('App Listening on port ' + port + '.');
-
 });

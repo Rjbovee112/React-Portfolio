@@ -2,6 +2,7 @@ import React from 'react';
 import './contact.css';
 
 
+
 class Contact extends React.Component {
     componentDidMount() {
         var body = document.querySelector('body');
@@ -30,7 +31,7 @@ class Contact extends React.Component {
 
                     <div className=" col-md-4 form-group"><img id="email" src="./assets/email-blocks-on-gray-surface-1591062.jpg" />
                         <div className="centered">
-                            <a href="mailto:rjbovee112@gmail.com?Subject=Hello%20again" target="_top">
+                            <a href="/email" target="_top">
                                 <font size="6"><b>EMAIL</b></font>
                             </a></div>
                     </div>
