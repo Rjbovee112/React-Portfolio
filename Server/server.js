@@ -37,7 +37,8 @@ app.post('/send-email', function (req, res) {
      `,
 
     })
-        .then(function () {
+        .then(function (sentEmail) {
+            console.log(sentEmail)
             res.end('Sent.');
         })
         .catch(function (error) {
