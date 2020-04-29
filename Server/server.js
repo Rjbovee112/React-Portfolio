@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -16,8 +17,8 @@ var transporter = nodeMailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'Rjbovee112',
-        pass: 'Front!2020',
+        user: process.env.user,
+        pass: process.env.pass,
     },
 });
 
@@ -30,8 +31,8 @@ app.post('/send-email', function (req, res) {
     console.log(req.body)
 
     transporter.sendMail({
-        from: 'rjbovee112@gmail.com',
-        to: 'rjbovee112@gmail.com',
+        from: 'Bovee.work@gmail.com',
+        to: 'Bovee.work@gmail.com',
         subject: subject,
         text: `
             Email: ${email}
@@ -42,10 +43,12 @@ app.post('/send-email', function (req, res) {
         .then(function (sentEmail) {
             console.log(sentEmail)
             res.end('Sent.');
+            console.log('then')
         })
         .catch(function (error) {
             console.log(error);
             res.end(error);
+            console.log('catch')
         });
 
 });
