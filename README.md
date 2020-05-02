@@ -2,6 +2,8 @@
 
 Build a portfolio using React.
 
+*****
+
 ## Requirements
 
 * Updated portfolio featuring 6 total projects
@@ -17,6 +19,8 @@ Build a portfolio using React.
 * A `Footer` component that appears on multiple pages
 
 * Update GitHub profile with pinned repositories featuring those same projects
+
+*****
 
 
 ## Updated Portfolio
@@ -39,6 +43,8 @@ Your updated site should still have all of the content it previously had:
 
   * GIF or screenshot of the deployed application
 
+  *****
+
 
 ## Design
 
@@ -52,6 +58,8 @@ As with the previous portfolio homework, "good" design is subjective. Your site 
 * Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
 * If you want to go above and beyond, try using animations and react component libraries. Note that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
+
+*****
 
 ## React
 
@@ -67,21 +75,36 @@ At a minimum, your portfolio should include the following:
 
 * A `Footer` component that appears on multiple pages
 
+*****
+
 
 ## Updated LinkedIn Profile 
 
 https://www.linkedin.com/in/robert-bovee-a5b0a3191/
 
+*****
+
+# Home
 
 ![Home](Server/build/assets/home.PNG " SSH Instructions 6")
 
+# About Me
+
 ![About Me](Server/build/assets/aboutme.PNG " SSH Instructions 6")
 
-![Portfolio](Server/build/assets/projects.PNG" SSH Instructions 6")
+# Portfolio 
+
+![Portfolio](Server/build/assets/projects.PNG " SSH Instructions 6")
+
+# Contact Me
 
 ![Contact Me](Server/build/assets/contactme.PNG " SSH Instructions 6")
 
+*****
 
+This website was created by Robert Bovee
+
+Please click the link below to see the app deployed to Heroku
 
 
 https://robertboveeportfolio.herokuapp.com/
