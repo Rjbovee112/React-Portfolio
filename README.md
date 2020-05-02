@@ -76,9 +76,23 @@ At a minimum, your portfolio should include the following:
 * A `Footer` component that appears on multiple pages
 
 *****
+# About
 
+This is a portfolio page for myself.  It was created, designed and produced by me.  It has my contact information, about me and the top 8 projects and homeworks that I have done in the University of Utah Coding Bootcamp.  My idea was for it to be black, white and grey.  With the projects and pictures colored so they would be the focal point.  All the links work and will take you to their named websites.  The email sends it directly to my person email.
 
-## Updated LinkedIn Profile 
+*****
+
+# Problems
+
+This website is made from React.  I had a previous idea about my website that was used just with HTML, CSS, Bootstrap and JavaScript.  I adjust sections to make the website look better and user nicer images.  The hardest part was importing everything into React, and creating and breaking down the footer, header, bodies into the different components.  
+
+The single hardest part of the porject was crating the eamil form that would send any email to my personal email.  I had to creat the form and the send the information into SendGrid, then passing the email information back to my person email.  While using SendGrid we had to creat a .env file to save my password and username so it would not push to GitHub, to keep everything protected.
+
+I really enjoyed making this project and it lead to a better understanding of React and how complicated it can get.
+
+*****
+
+# Updated LinkedIn Profile 
 
 https://www.linkedin.com/in/robert-bovee-a5b0a3191/
 
