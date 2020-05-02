@@ -73,13 +73,13 @@ At a minimum, your portfolio should include the following:
 https://www.linkedin.com/in/robert-bovee-a5b0a3191/
 
 
-![Home](/server/build/assets/home.PNG " SSH Instructions 6")
+![Home](Server/build/assets/home.PNG " SSH Instructions 6")
 
-![About Me](/server/build/assets/aboutme.PNG " SSH Instructions 6")
+![About Me](Server/build/assets/aboutme.PNG " SSH Instructions 6")
 
-![Portfolio](/server/build/assets/projects.PNG" SSH Instructions 6")
+![Portfolio](Server/build/assets/projects.PNG" SSH Instructions 6")
 
-![Contact Me](/server/build/assets/contactme.PNG " SSH Instructions 6")
+![Contact Me](Server/build/assets/contactme.PNG " SSH Instructions 6")
 
 
 
