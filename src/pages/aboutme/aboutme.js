@@ -28,7 +28,7 @@ class AboutMe extends React.Component {
 
 
                     <div className=" col-md-6">
-                        <p>I recently graduated from the University of Utah Full Stack Coding Bootcamp.  During the course I have gravitated towards front end development and design.  I really enjoy creating exciting websites with function and style.  I am looking forward to becoming a Front-End Developer.  I am an avid Udemy course taker and plan to continue my education by taking more courses through this platform.  I currently work at Fidelity Investments, in their Brokerage Operations department.  I have been with the company for 5 years.  In 2017 I received a kidney transplant, which I believe gives me unique insight into life.</p>
+                        <p>I recently graduated from the University of Utah Full Stack Coding Bootcamp.  During the course I have gravitated towards front end development and design.  I really enjoy creating exciting websites with function and style.  I am looking forward to becoming a Front-End Developer.  I am an avid Udemy course taker and plan to continue my education by taking more courses through this platform.  I currently work at Fidelity Investments, in their Brokerage Operations department.  I have been with the company for 5 years.</p>
                     </div>
 
                 </div>
